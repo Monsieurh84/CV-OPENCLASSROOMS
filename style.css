@@ -4,8 +4,7 @@
 }
 
 h1 {
-color: black;
-text-align: center;
+color: black; 
 font-family: "LEMONMILK-Regular"    
 }
 
@@ -18,10 +17,12 @@ body{
     height: 100%;
 }
 
-aside{
+.bande{
     position: absolute;
     background-color: yellow;
-    height: 100%;
+    height: auto;
+    left: 0px;
+    width: 350px;
 }
 
 
