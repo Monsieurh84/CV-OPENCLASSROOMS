@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'LEMONMILK-Regular';
+    src: url('fonts/LEMONMILK-Regular.otf');
+}
+
+h1 {
+color: black;
+text-align: center;
+font-family: "LEMONMILK-Regular"    
+}
+
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+}
+
+aside{
+    position: absolute;
+    background-color: yellow;
+    height: 100%;
+}
+
+
+
