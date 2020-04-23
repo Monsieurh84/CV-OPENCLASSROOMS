@@ -22,12 +22,12 @@ body{
     left: 0px;
     width: 360px;
     color: #ffffff;
-    padding-top: 10%;
+    padding-top: 45px;
 }
 
 header{
-    margin-left: 25%;
-    top: 8%;
+    margin-left: 420px;
+    padding-top: 45px;
 }
 
 .tof{
@@ -53,8 +53,8 @@ h4{
 .contenu{
     margin-top: 105px;
     width: 70%;
+    margin-left: 410px;
     position: absolute;
-    margin-left: 25%;
 }
 
 .infos1{
@@ -121,10 +121,20 @@ section p i{
     font-weight: 700;
 }
 
-.row{
-    margin-bottom: 65px;
-}
 
 .contenu span{
    margin-left: 30px;
+}
+
+.entreprise{
+    width: 1080px;
+    margin-left: -50px;
+}
+
+.date{
+    width: 900px;
+}
+.ligne{
+    display: flex;
+    width: 70%;
 }
