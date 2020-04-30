@@ -18,7 +18,7 @@ body{
 .bande{
     position: absolute;
     background-color: #ff6700;
-    height: auto;
+    height: 1900px;
     left: 0px;
     width: 360px;
     color: #ffffff;
@@ -27,7 +27,7 @@ body{
 
 header{
     margin-left: 420px;
-    padding-top: 45px;
+    padding-top: 75px;
 }
 
 .tof{
@@ -36,7 +36,7 @@ header{
   border: 2px solid #ebebeb;
   border-radius : 100px;
   margin-left: 90px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.65);
 }
 
@@ -51,7 +51,7 @@ h4{
 }
 
 .contenu{
-    margin-top: 105px;
+    margin-top: 80px;
     width: 70%;
     margin-left: 410px;
     position: absolute;
@@ -74,11 +74,9 @@ h4{
 .loisirs{
     display: flex;
     padding-top: 5px;
-    padding-bottom: 10px;
     text-align: center;
     justify-content: space-around;
     width: 100%;
-    margin-bottom: 15px;
     margin-top: 20px;
 }
 
@@ -136,5 +134,185 @@ section p i{
 }
 .ligne{
     display: flex;
-    width: 70%;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.recom2{
+    margin-left: 150px;
+    width: 400px;
+}
+
+.recom1{
+    width: 400px;
+}
+
+
+
+
+
+
+
+/*responsive mobile*/
+
+@media screen and (max-width: 1280px){
+    
+    .bande{
+        background: none;
+        width: 100%;
+    }
+    
+    .contenu{
+        margin-top: 450px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    header{
+        padding-top: 485px;
+        margin-bottom: -250px;
+        margin-left: 0px;
+        text-align: center;
+        background-color: #ff6700;
+        padding-bottom: 150px;
+    }
+
+    .tof{
+        margin-left: 310px;
+        width: 380px;
+        height: 380px;
+        border-radius: 200px;
+        border: 4px solid #ebebeb;
+        box-shadow: 0px 0px 80px rgba(14, 14, 145, 0.71);
+    }  
+    
+    
+    .ligne{
+        display: block;
+        margin-right: 0px;
+        margin-top: 140px;
+        width: 100%;
+    } 
+    
+    .date{
+        width:100%;
+        margin-left:0px;
+        font-size: 35px;
+        margin-bottom: 40px;
+        background-color:#004e98;
+        padding: 25px 150px 25px 150px;
+        font-weight: 700;
+        color: white;
+        
+    }
+    
+    .entreprise{
+        width: 85%;
+        margin-left: 80px;
+        margin-bottom: -30px;
+    }
+    
+    header h1 {
+        font-size: 4.5em;
+    }
+    
+    header h2{
+        font-size: 3em;
+    }
+    
+    .entreprise h3 {
+        font-size: 40px;
+    }
+    
+    .entreprise p{
+        font-size: 35px;
+    }
+    
+    h5{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    
+    .contenu section {
+    margin-top: 105px;    
+    }
+    
+    .date br{
+        display: none;
+    }
+    
+    .contenu section h2{
+        margin-bottom: -140px;
+        background-color: rgb(255, 255, 255);
+        padding: 50px 0px 50px 0px;
+        box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.67);
+        border: none;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    body{
+        background-color: #ff6700;
+    }
+    
+    .recommandation{
+        display: block;
+        width: 100%;
+    }
+    
+    .recom1{
+        margin-top: 90px;
+        width: 100%;
+    }
+    
+    .recom2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    .recommandation h3{
+        font-size: 40px;
+        background-color: #004e98;
+        padding: 25px 150px 25px 150px;
+        color: white;
+    }
+    
+    .recommandation h5{
+        font-size: 35px;
+        background-color: #004e98;
+        padding: 25px 150px 25px 150px;
+        color: white;
+        margin-top: -20px;
+    }
+    
+    .recommandation p{
+        font-size: 30px;
+    }
+    
+    section p i {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .recommandation p{
+        font-weight: 700;
+    }
+    
+    .tofmobile{
+        width: 100%;
+    }
+    
+    .infos1{
+        width: auto;
+        text-align: center;
+        margin-left: 0px;
+        margin-left: 0px;
+
+            
+    }
+    
 }
