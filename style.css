@@ -153,6 +153,7 @@ section p i{
 
 
 
+
 /*responsive mobile*/
 
 @media screen and (max-width: 1280px){
@@ -359,7 +360,5 @@ section p i{
         border: 4px solid #004e98; 
         
     }
-    
-
-    
+        
 }
